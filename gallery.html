@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+    <script src="../java script/gallery.js" defer ></script>
+</head>
+<body onload="colo()">
+   <div id="a">
+    <h1 id="heading">Travelled Image Gallery</h1>
+   </div>
+   <div id="bigscreen" class="fullscreenimg" style="display:none" onclick="imgv()">
+      <img id="fullimg" src="../asset/images/a.jpg">
+      <h1 id="imgheading">Heading</h1>
+      <p id="imgparagraph">Beach which contains full of water and sand..Beach vibes are very pleafsent and cool..</p>
+   </div>
+   <div class="bodyofgallery">
+<img src="../asset/images/b.jpg"onclick="imgk(this.src,'Beach','Beach which contains full of water and sand..','Beach vibes are very pleasent and cool..')">
+<img src="../asset/images/a.jpg"onclick="imgk(this.src,'Sheels')">
+<img src="../asset/images/c.jpg"onclick="imgk(this.src,'Rose')">
+<img src="../asset/images/d.jpg"onclick="imgk(this.src,'Lion')">
+<img src="../asset/images/e.jpg"onclick="imgk(this.src,'Berries')">
+<img src="../asset/images/f.jpg"onclick="imgk(this.src,'Butterfly')">
+<img src="../asset/images/g.jpg"onclick="imgk(this.src,'Bird')">
+<img src="../asset/images/h.jpg"onclick="imgk(this.src,'Swams')">
+   </div>
+</body>
+</html>
